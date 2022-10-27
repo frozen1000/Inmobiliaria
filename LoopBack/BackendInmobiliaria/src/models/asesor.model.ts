@@ -25,7 +25,7 @@ export class Asesor extends Entity {
     type: 'string',
     required: true,
   })
-  e-mail: string;
+  email: string;
 
   @property({
     type: 'string',
