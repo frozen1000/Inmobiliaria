@@ -13,12 +13,6 @@ export class Inmueble extends Entity {
     type: 'string',
     required: true,
   })
-  idAsesor: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
   departamento: string;
 
   @property({
@@ -99,6 +93,15 @@ export class Inmueble extends Entity {
   })
   enlaceVideo?: string;
 
+  @property({
+    type: 'string',
+  })
+  asesorId?: string;
+
+  @property({
+    type: 'string',
+  })
+  solicitudId?: string;
   // Define well-known properties here
 
   // Indexer property to allow additional data
