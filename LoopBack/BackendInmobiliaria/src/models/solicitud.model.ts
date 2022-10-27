@@ -16,12 +16,6 @@ export class Solicitud extends Entity {
   tipo: boolean;
 
   @property({
-    type: 'string',
-    required: true,
-  })
-  idInmueble: string;
-
-  @property({
     type: 'date',
     required: true,
   })
@@ -38,13 +32,7 @@ export class Solicitud extends Entity {
   })
   comentarioAsesor?: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  idCliente: string;
-
-
+  
   constructor(data?: Partial<Solicitud>) {
     super(data);
   }

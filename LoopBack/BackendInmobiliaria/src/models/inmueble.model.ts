@@ -9,11 +9,6 @@ export class Inmueble extends Entity {
   })
   id?: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  idAsesor: string;
 
   @property({
     type: 'string',
