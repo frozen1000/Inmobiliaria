@@ -25,3 +25,4 @@ export class AsesorRepository extends DefaultCrudRepository<
     this.registerInclusionResolver('solicituds', this.solicituds.inclusionResolver);
   }
 }
+
