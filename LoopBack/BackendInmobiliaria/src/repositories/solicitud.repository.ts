@@ -1,5 +1,4 @@
 import {inject, Getter} from '@loopback/core';
-import {inject, Getter} from '@loopback/core';
 import {DefaultCrudRepository, repository, HasOneRepositoryFactory} from '@loopback/repository';
 import {MongodbDataSource} from '../datasources';
 import {Solicitud, SolicitudRelations, Inmueble} from '../models';
